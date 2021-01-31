@@ -1,21 +1,11 @@
-<!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+@extends('base')
 
-    <title>A Propos | CallCenter</title>
+@section('title','A Propos | CallCenter')
 
-    <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
-</head>
-<body>
-<h1>A Propos</h1>
+@section('content')
 
-<p>We &hearts; work with Lou-Ann Technologies</p>
+    <h1>A Propos</h1>
 
-<footer>
-    <p>&copy Copyright {{date('Y')}} &middot; <a href="/">Lou-Ann Technologies</a></p>
-</footer>
-</body>
-</html>
+        <p>We &hearts; work with Lou-Ann Technologies</p>
+
+@endsection
