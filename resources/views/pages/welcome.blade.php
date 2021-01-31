@@ -1,6 +1,6 @@
 @extends('base')
 
-@section('title','CallCenter')
+@section('title', config('app.name'))
 
 @section('content')
 

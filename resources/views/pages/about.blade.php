@@ -1,6 +1,6 @@
 @extends('base')
 
-@section('title','A Propos | CallCenter')
+@section('title','A Propos | '. config('app.name'))
 
 @section('content')
 
