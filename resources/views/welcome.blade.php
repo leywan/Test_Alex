@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Callcenter</title>
+        <title>Home | CallCenter</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
@@ -15,7 +15,7 @@
         <p>Il est {{date('H:i:s')}}.</p>
 
         <footer>
-            <p>&copy Copyright {{date('Y')}} &middot; <a href="#">Lou-Ann Technologies</a></p>
+            <p>&copy Copyright {{date('Y')}} &middot; <a href="/about">A Propos</a></p>
         </footer>
     </body>
 </html>
