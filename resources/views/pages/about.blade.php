@@ -4,8 +4,7 @@
 
 @section('content')
 
-    <h1>A Propos</h1>
-
-        <p>We &hearts; work with Lou-Ann Technologies</p>
+    <img src="{{asset('/images/logo.png')}}" alt="Lou-Ann Technologies">
+    <p class="text-lg text-gray-300">We <span class="text-pink-500">&hearts;</span> work with Lou-Ann Technologies</p>
 
 @endsection
