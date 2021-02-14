@@ -17,11 +17,12 @@
                         @enderror
 
                         <div class="form-group col-md-6">
-                            <label for="permanence_id">Permanence :</label>
-                            <input type="permanence_id" class="form-control  @error('permanence_id') is-invalid @enderror" name="permanence_id" id="permanence_id" placeholder="permanence_id ID" value="{{ old('permanence') }}"></div>
-                        @error('permanence_id')
-                        <div class="invalid-feedback">{{ $message }}</div>
-                        @enderror
+                            <label for="permanence">Permanence :</label>
+                            <select name="permanence" id="permanence" class="form-control"></select>
+                            @foreach($permanences as $permanence)
+                                <option value="{{ $permanence->id }}">{{ $permanence->raison }}</option>
+                            @endforeach
+                        </div>
                     </div>
                     <div class="form-row">
                         <div class="form-group col-md-6">
